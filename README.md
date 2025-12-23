@@ -34,7 +34,7 @@
     </div>
 
     <div class="hero-profile">
-      <img src="[https://mega.nz/file/vVpymTgC#0815ZB1UNcq-qE2U0t44D7FmHWEQR3-0UyE48rZZTGE](https://media.licdn.com/dms/image/v2/D4D35AQFTQ4fQTmNXvA/profile-framedphoto-shrink_200_200/B4DZktdeYJJMAY-/0/1757404325747?e=1767088800&v=beta&t=MyNBvnHUtlGDIP6mtCjXLcBVcDv8yxrLoS7-W5tSVh4)" alt="Vishal"/>
+      <img src="https://media.licdn.com/dms/image/v2/D4D35AQFTQ4fQTmNXvA/profile-framedphoto-shrink_200_200/B4DZktdeYJJMAY-/0/1757404325747?e=1767088800&v=beta&t=MyNBvnHUtlGDIP6mtCjXLcBVcDv8yxrLoS7-W5tSVh4" alt="Vishal"/>
     </div>
 
   </div>
