@@ -1,87 +1,86 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vishal Chouhan | Shopify Developer</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="nav-inner">
+    <strong>Vishal.dev</strong>
+    <a href="mailto:vishalrajputt88@gmail.com" class="nav-btn">Hire Me</a>
+  </div>
+</header>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-inner">
-    
-    <div class="profile">
-      <!-- PROFILE IMAGE -->
-      <img 
-        src="https://mega.nz/file/vVpymTgC#0815ZB1UNcq-qE2U0t44D7FmHWEQR3-0UyE48rZZTGE" 
-        alt="Vishal Chouhan" 
-      />
-    </div>
 
-    <div class="hero-content">
-      <h1>Vishal Chouhan</h1>
-      <h2>Shopify Developer • 3.5+ Years Experience</h2>
-
+    <div class="hero-text">
+      <span class="badge">Shopify Expert</span>
+      <h1>Building High-Performance<br>Shopify Stores</h1>
       <p>
-        I build high-performance Shopify stores with custom themes,
-        advanced sections, APIs, and pixel-perfect UI.
+        3.5+ years experience • 100+ Shopify stores • Custom themes • APIs • Speed
       </p>
 
       <div class="hero-actions">
         <a href="mailto:vishalrajputt88@gmail.com" class="btn primary">Hire Me</a>
-        <a href="https://linkedin.com/in/vishal-chouhan-shopify-dev" target="_blank" class="btn outline">
-          LinkedIn
-        </a>
+        <a href="https://linkedin.com/in/vishal-chouhan-shopify-dev" target="_blank" class="btn ghost">LinkedIn</a>
       </div>
+    </div>
+
+    <div class="hero-profile">
+      <img src="https://mega.nz/file/vVpymTgC#0815ZB1UNcq-qE2U0t44D7FmHWEQR3-0UyE48rZZTGE" alt="Vishal"/>
     </div>
 
   </div>
 </section>
 
-<!-- ABOUT -->
-<section class="section">
-  <h3>About Me</h3>
-  <p class="center-text">
-    Shopify Developer with 3.5+ years of experience in building
-    100+ Shopify stores using custom Liquid, Shopify 2.0 sections,
-    APIs, and performance optimization.
-  </p>
+<!-- STATS -->
+<section class="stats">
+  <div class="stat"><strong>100+</strong><span>Shopify Stores</span></div>
+  <div class="stat"><strong>3.5+</strong><span>Years Experience</span></div>
+  <div class="stat"><strong>20+</strong><span>Custom Apps</span></div>
 </section>
 
 <!-- SKILLS -->
-<section class="section dark">
-  <h3>Technical Skills</h3>
-  <div class="skills-grid">
-    <span>Shopify (Liquid, 2.0, APIs)</span>
-    <span>HTML, CSS, JavaScript</span>
-    <span>Tailwind, Bootstrap</span>
-    <span>WooCommerce, WordPress</span>
-    <span>GitHub, Figma</span>
-    <span>Speed Optimization</span>
+<section class="section">
+  <h2>What I Do</h2>
+
+  <div class="grid">
+    <div class="card">Custom Shopify Themes</div>
+    <div class="card">Shopify 2.0 Sections</div>
+    <div class="card">Liquid & Metafields</div>
+    <div class="card">API Integrations</div>
+    <div class="card">Speed Optimization</div>
+    <div class="card">UI / UX from Figma</div>
   </div>
 </section>
 
 <!-- EXPERIENCE -->
-<section class="section">
-  <h3>Experience</h3>
+<section class="section dark">
+  <h2>Experience</h2>
 
-  <div class="card">
-    <h4>Shopify Developer — Ninja Technology</h4>
-    <small>May 2021 – Oct 2024 (3.5 Years)</small>
+  <div class="experience">
+    <h3>Shopify Developer — Ninja Technology</h3>
+    <small>May 2021 – Oct 2024</small>
 
     <ul>
-      <li>Built 100+ Shopify stores with custom themes and logic</li>
-      <li>Developed dynamic Shopify 2.0 sections</li>
-      <li>Worked with Shopify APIs, metafields & checkout flows</li>
-      <li>Handled speed optimization & mobile responsiveness</li>
+      <li>Built 100+ Shopify stores (custom + premium themes)</li>
+      <li>Advanced Liquid logic & schema-based sections</li>
+      <li>Shopify APIs, metafields, checkout flows</li>
+      <li>Speed optimization & mobile UI fixes</li>
     </ul>
   </div>
 </section>
 
 <!-- PROJECTS -->
-<section class="section dark">
-  <h3>Key Projects</h3>
+<section class="section">
+  <h2>Selected Projects</h2>
 
   <div class="projects">
     <div class="project">Metics Fashion</div>
@@ -89,18 +88,31 @@
     <div class="project">NYX Cosmetics India</div>
     <div class="project">With Clarity</div>
     <div class="project">Spacemilk</div>
-    <div class="project">Omaha Sheriff (WooCommerce)</div>
+    <div class="project">Omaha Sheriff</div>
   </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Need a Shopify Expert?</h2>
+  <p>Available for freelance & full-time roles</p>
+  <a href="mailto:vishalrajputt88@gmail.com" class="btn primary">Let’s Talk</a>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <p>📍 Indore, India • 📞 9977999178 • ✉️ vishalrajputt88@gmail.com</p>
-  <p>Available for immediate joining</p>
 </footer>
 
 </body>
 <style>
+:root {
+  --green: #22c55e;
+  --dark: #0f172a;
+  --darker: #020617;
+  --border: #1e293b;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -109,159 +121,174 @@
 }
 
 body {
-  background: #0f172a;
+  background: var(--dark);
   color: #e5e7eb;
   line-height: 1.6;
+}
+
+/* NAV */
+.nav {
+  background: #020617;
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-btn {
+  color: var(--green);
+  text-decoration: none;
+  font-weight: 600;
 }
 
 /* HERO */
 .hero {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #0f172a, #020617);
 }
-
 .hero-inner {
   max-width: 1100px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.2fr 1fr;
   gap: 40px;
   align-items: center;
 }
-
-.profile img {
-  width: 220px;
-  height: 220px;
+.badge {
+  display: inline-block;
+  background: rgba(34,197,94,.15);
+  color: var(--green);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.hero h1 {
+  font-size: 44px;
+  line-height: 1.2;
+}
+.hero p {
+  margin: 20px 0;
+  color: #cbd5f5;
+}
+.hero-profile img {
+  width: 260px;
+  height: 260px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid #22c55e;
+  border: 4px solid var(--green);
 }
 
-.hero-content h1 {
-  font-size: 42px;
-}
-
-.hero-content h2 {
-  font-size: 18px;
-  font-weight: 400;
-  color: #22c55e;
-  margin: 10px 0 20px;
-}
-
-.hero-actions {
-  margin-top: 25px;
-}
-
+/* BUTTONS */
 .btn {
   padding: 12px 22px;
-  margin-right: 10px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
 }
-
-.btn.primary {
-  background: #22c55e;
+.primary {
+  background: var(--green);
   color: #022c22;
 }
+.ghost {
+  border: 2px solid var(--green);
+  color: var(--green);
+  margin-left: 10px;
+}
 
-.btn.outline {
-  border: 2px solid #22c55e;
-  color: #22c55e;
+/* STATS */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  max-width: 1100px;
+  margin: 0 auto 60px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.stat {
+  padding: 30px;
+  text-align: center;
+}
+.stat strong {
+  font-size: 32px;
+  color: var(--green);
 }
 
 /* SECTIONS */
 .section {
   padding: 70px 20px;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
 }
-
-.section h3 {
-  font-size: 28px;
-  margin-bottom: 30px;
+.section h2 {
   text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
 }
-
-.center-text {
-  text-align: center;
-  max-width: 700px;
-  margin: auto;
-}
-
 .section.dark {
-  background: #020617;
+  background: var(--darker);
 }
 
-/* SKILLS */
-.skills-grid {
+/* GRID */
+.grid, .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
 }
-
-.skills-grid span {
-  background: #020617;
-  padding: 14px;
-  border-radius: 8px;
+.card, .project {
+  background: var(--darker);
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
   text-align: center;
-  border: 1px solid #1e293b;
+  font-weight: 600;
 }
 
 /* EXPERIENCE */
-.card {
-  background: #020617;
-  padding: 30px;
-  border-radius: 12px;
-  border: 1px solid #1e293b;
+.experience {
+  max-width: 700px;
+  margin: auto;
 }
-
-.card h4 {
-  margin-bottom: 6px;
-}
-
-.card small {
+.experience small {
   color: #9ca3af;
 }
-
-.card ul {
-  margin-top: 15px;
+.experience ul {
+  margin-top: 20px;
   padding-left: 20px;
 }
 
-/* PROJECTS */
-.projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.project {
-  background: #020617;
-  padding: 30px;
-  border-radius: 12px;
+/* CTA */
+.cta {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #022c22, #052e16);
   text-align: center;
-  font-weight: 600;
-  border: 1px solid #1e293b;
+}
+.cta h2 {
+  font-size: 36px;
+}
+.cta p {
+  margin: 15px 0 25px;
 }
 
 /* FOOTER */
 footer {
   text-align: center;
-  padding: 30px 15px;
-  background: #020617;
+  padding: 30px;
+  background: var(--darker);
   color: #9ca3af;
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
-  .hero-inner {
+@media(max-width:768px){
+  .hero-inner{
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align:center;
   }
-
-  .profile img {
-    margin: auto;
+  .hero-profile img{
+    margin:auto;
   }
 }
 
