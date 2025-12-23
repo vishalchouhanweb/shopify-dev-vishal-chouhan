@@ -100,4 +100,173 @@
 </footer>
 
 </body>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #020617);
+}
+
+.hero-inner {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.profile img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #22c55e;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+}
+
+.hero-content h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #22c55e;
+  margin: 10px 0 20px;
+}
+
+.hero-actions {
+  margin-top: 25px;
+}
+
+.btn {
+  padding: 12px 22px;
+  margin-right: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #22c55e;
+  color: #022c22;
+}
+
+.btn.outline {
+  border: 2px solid #22c55e;
+  color: #22c55e;
+}
+
+/* SECTIONS */
+.section {
+  padding: 70px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.center-text {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+}
+
+.section.dark {
+  background: #020617;
+}
+
+/* SKILLS */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.skills-grid span {
+  background: #020617;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #1e293b;
+}
+
+/* EXPERIENCE */
+.card {
+  background: #020617;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+}
+
+.card h4 {
+  margin-bottom: 6px;
+}
+
+.card small {
+  color: #9ca3af;
+}
+
+.card ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #020617;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid #1e293b;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 15px;
+  background: #020617;
+  color: #9ca3af;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-inner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .profile img {
+    margin: auto;
+  }
+}
+
+  
+</style>
+
+
 </html>
