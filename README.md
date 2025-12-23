@@ -4,6 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vishal Chouhan | Shopify Developer</title>
   <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -116,7 +119,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 body {
